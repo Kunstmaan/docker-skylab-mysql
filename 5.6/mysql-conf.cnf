@@ -20,6 +20,7 @@ innodb_file_per_table = 1
 innodb_buffer_pool_size = 3992M
 innodb_write_io_threads = 16
 innodb_doublewrite = 0
+innodb_large_prefix=on
 tmp-table-size = 32M
 max-heap-table-size = 32M
 query-cache-type = 1
